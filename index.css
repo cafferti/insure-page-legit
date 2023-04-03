@@ -1,0 +1,516 @@
+span .navbar-text{
+    display: flex;
+}
+.navbar-collapse{
+    background-color: hsl(270, 9%, 17%);
+
+  
+}
+.nav-bg{
+    padding:120px;
+    background-image: url(images/bg-pattern-mobile-nav.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8rem;
+    height: 80px;
+    
+}
+.nav-item1{
+    border: 1px solid rgb(170, 162, 162);
+    padding: 0px;
+    margin-inline: 20%;
+}
+
+.nav2{
+    display: none;
+}
+body{
+    position: relative;
+ font-family: 'DM Serif Display', serif;
+ font-family: 'Karla', sans-serif;
+ width: 100%;
+ font-size: 16px;
+
+
+}
+.headleft{
+    position: absolute;
+    background-image: url("https://raw.git");
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 0;
+    width: 13rem;
+    height: 32rem;
+
+}
+ .header .family{
+    display: inline-block;
+    width: 100%;
+}
+.header{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(256, 26%, 20%) ;
+    color: white;
+    text-align: center;
+    
+}
+.header .bg-left{
+    position: absolute;
+    padding: 100px;
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    background-image: url("images/bg-pattern-intro-left-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+ .bg-right{
+    padding: 0%;
+    position: absolute;
+    height:35%;
+    width:25%;
+    background-image: url("images/bg-pattern-intro-right-mobile.svg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right:0px ;
+    top: 10%;
+    right:0px ;
+    align-items: right;    
+    
+} 
+
+.work-bg{
+    background-image: url("images/bg-pattern-how-we-work-mobile.svg");
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 52%;
+    right: 0%;
+    padding-right: 0%;
+}  
+
+
+
+.header h1{
+    font-family: 'DM Serif Display', serif;
+    padding-block: 4.5rem 0rem;
+    font-weight: 700;
+    font-size:2.9rem;
+    letter-spacing: 0px;
+    padding-inline: 5%;
+}
+.header p{
+    text-align: center;
+    padding-inline: 5%;
+    padding-block: 0.7rem 0rem;
+    line-height: 2rem;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Karla', sans-serif ;
+    color:hsl(273, 4%, 90%) ;
+    padding-bottom:;
+    letter-spacing: 0.5px;
+}
+.header hr{
+    width: 0%;
+}
+
+.header button{
+    background-color: inherit;
+    margin-block: 1.7rem 8rem;
+    width: 50%;
+    letter-spacing: 2px;
+    padding-block:0.8rem ;
+    border: solid 2px hsl(273, 4%, 90%);
+    color: hsl(273, 4%, 90%);
+    font-weight: 700;   
+}
+
+.main h1{
+    font-family:'DM Serif Display', serif ;
+   font-weight: 700; 
+   text-align: center;
+   font-size: 2.8rem;
+   margin-block: 5rem 0px;
+   padding-block: 3rem 0px;
+   color: hsl(256, 26%, 20%);
+}
+.main hr{
+    width: 40%;
+    margin-inline:30% 25%;
+    background-color: rgb(226, 209, 209);
+    margin-bottom: 2rem;
+    line-height: 1px;
+}
+.main ul li .snappy{
+    display: inline-block;
+    justify-content: center;
+    margin-block: 3.4rem 2rem;
+    
+}
+.main ul li p{
+font-family:'Karla', sans-serif  ;
+font-weight: 400;
+color: hsl(273, 4%, 51%);
+line-height: 1.5rem;
+}
+.main ul li h2{
+    padding-block: 0 1rem;
+    color:  hsl(256, 26%, 20%);
+}
+.main ul {
+    font-family:'DM Serif Display', serif ;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 0%;
+    list-style: none;
+    justify-content: center;
+}
+.main ul .first-people{
+    
+}
+.work{
+    position: relative;
+    background-color: hsl(256, 26%, 20%); 
+    margin-inline: 5%;
+    margin-block: 8rem 0rem;
+    text-align: center;
+}
+.work h1{
+    color: white;
+    font-family:'DM Serif Display', serif ; 
+    font-weight: 700;
+}
+.work .button{
+ width: 60%;
+ background-color: inherit;
+ margin-block: 2.5rem 5rem;
+ width: 50%;
+ letter-spacing: 2px;
+ padding-block:0.8rem ;
+ border: solid 2px hsl(273, 4%, 90%);
+ color: hsl(273, 4%, 90%);
+ font-weight: 700;   
+}
+footer{
+    position: relative;
+    text-align: center;
+    margin-block:0rem 0rem;
+    background-color: hsl(0, 0%, 98%);
+    padding-block: 5rem;
+}
+
+footer .insure{
+    text-align: center;
+}
+footer .socials {
+    list-style: none;
+    text-align: center;
+    padding-block: 2rem 0px;
+    padding-inline: 0px;
+    
+    
+
+    
+}
+footer .socials li{
+    display: inline-block;
+    padding-inline: 0.4rem;
+    text-align: center;
+   
+
+}
+.advertise{
+    padding-top: 20%;
+    background-image: url(images/bg-pattern-footer-mobile.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-block: 0px 2.5rem;
+  
+    
+}
+
+footer .partners{
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+    
+}
+footer .partners .topd{
+border-top:1px solid rgb(152, 148, 148);
+margin-inline: 3%;
+padding-block: 1rem 0rem;
+}
+footer .partners h4 a{
+    letter-spacing: 2px;
+ text-decoration: none;
+ color: hsl(256, 26%, 20%);
+}
+
+footer .partners h4:first-child{
+color: hsl(273, 4%, 51%) ; 
+padding-block: 1.5rem; 
+letter-spacing: 2px;
+
+}
+footer .partners p{
+
+}
+
+@media screen and (min-width:724px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        padding-inline:8.3%;
+        position: relative;
+    }
+    .header .family{
+    width: 50%;
+    order: 1;
+    position: absolute;
+    height: 110%;
+    width: 40%;
+    top: 15%;
+    right: 8.3%;
+    }
+   .header .headleft{
+      width: 50%;
+      
+      
+    }
+    .header p{
+        text-align: left;
+        padding-inline: 0px;
+        font-size: 16px;
+        width: 50%;
+    }
+    .header h1 {
+        text-align: left;
+        padding-left: 0px;
+       
+        }
+        .header button{
+        display: block;
+        width: 13%;
+        
+        }
+        .header button:hover{
+            background-color: hsl(273, 4%, 90%);
+            color:  hsl(256, 26%, 20%);
+        }
+       .main hr ,.header hr{
+            
+            width: 15%;
+    margin-inline:0% 25%;
+    background-color: rgb(226, 209, 209);
+    margin-bottom: 2rem;
+    line-height: 1p;
+        }
+        .main{
+            
+            margin: 0px;
+            padding: 0px;
+            padding-inline:8.3% ;
+            margin-top: 150px;
+            
+        }
+        .main h1{
+            text-align: left;
+            margin-top: 0%;
+            padding-top: 0%;
+            
+        }
+
+       .main ul{
+        
+            display: flex;
+            text-align: left;
+            justify-content: space-between;
+           
+        }
+        footer .advertise .socials li a img:hover{
+            background-color: black;
+        }
+        .work{
+            display: flex;
+            background-color: hsl(256, 26%, 20%); 
+            margin-inline: 0%;
+            margin-block: 5rem 0rem;
+            text-align: center;
+            width: 100%;
+            height: 275px;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            justify-items: center;
+        }
+        .work h1{
+            width: 45%;
+            padding: 5%;
+            
+        
+           
+
+    
+
+
+}  
+.work .button{
+    
+ width: 60%;
+ background-color: inherit;
+ margin-block: 1.5rem 1.5rem;
+ margin-inline: 0px 3rem;
+ width: 20%;
+ letter-spacing: 2px;
+ padding-block:0.5rem ;
+ border: solid 2px hsl(273, 4%, 90%);
+ color: hsl(273, 4%, 90%);
+ font-weight: 700;   
+ align-items: center;
+} 
+.work .button:hover{
+    background-color: hsl(273, 4%, 90%);
+    color:  hsl(256, 26%, 20%);
+    
+    
+}
+
+
+.advertise{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 8.3%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: solid 1px silver;
+    background-image: none;
+    margin-top: 100px;
+
+}  
+.advertise .insure{
+    height: 15px;
+    padding-bottom: 0px;
+    margin-top: 36px;
+    
+}  
+footer{
+    padding-top: 0px;
+    
+} 
+footer .partners{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 8.3%;
+   
+    
+}
+footer .partners .topd{
+    border-top:none;
+    margin-inline: 0%;
+    padding-block: 0rem;
+    }
+    footer .partners h4 a:hover{
+        text-decoration: underline;
+        cursor: white;
+    }
+    footer .partners .topd p h4 a:hover{
+text-decoration: underline;
+    }
+    footer .partners h4 {
+        font-size: 12px;
+        text-align: left;
+    }
+    .header .bg-left{
+
+        background-image:url("images/bg-pattern-intro-left-desktop.svg") ;
+        left: 0px;
+        top: 80%;
+        width: 80px;
+        height: 50%;
+        background-size: contain;
+        background-position: left;
+    }
+    .bg-right{
+        background-image: url(images/bg-pattern-intro-right-desktop.svg);
+        top: 3.5%;
+        padding: 10%;
+        margin-top: 0px;
+        background-size: cover;
+        width: 25%;
+        height: 25%;
+        
+    }
+    .work-bg{
+        background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+        top:0px;
+        height: 70%;
+        background-size: contain;
+        padding: 235px;
+    }
+    .adver-bg{
+        padding: 130px;
+        position: absolute;
+        height: 100%px;
+        width: 200px;
+        background-image: url(images/bg-pattern-footer-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+     nav .navbar-toggler{
+        display: none;
+        
+        
+    }
+    .nav2{
+        display: flex;
+        list-style: none;
+    
+            }
+            .nav2 li {
+                padding-inline: 1rem;
+                text-decoration: none;
+               
+            }
+            .nav2 a{
+                text-decoration: none;
+                padding-inline:1rem;
+                padding-block: 0.5rem;
+
+             
+                color:hsl(273, 4%, 51%);
+            }
+            .container-fluid {
+            margin: 0px;
+                margin-inline: 7%;}
+                .container-fluid .view{
+                    border: solid black;
+                    color: black;
+                }
+                .container-fluid .view:hover{
+                    background-color:hsl(270, 9%, 17%) ;
+                    color: white;
+                }
+                .container-fluid ul{
+                    margin-top: 14px;
+                }
+}
+   
+    
+/*- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)*/

@@ -3,23 +3,41 @@ span .navbar-text{
 }
 .navbar-collapse{
     background-color: hsl(270, 9%, 17%);
+    margin-block-end: 0px;
 
   
+}
+
+.container-fluid{
+    padding-inline: 0%;
+}
+.navbar-brand{
+    margin-left: 4%;
+}
+.navbar-toggler{
+    margin-right: 4%;
 }
 .nav-bg{
     padding:120px;
     background-image: url(images/bg-pattern-mobile-nav.svg);
-    background-position: center;
-    background-size: cover;
+  background-size: cover;
     background-repeat: no-repeat;
     margin-top: 8rem;
     height: 80px;
     
 }
+.nav-item{
+    padding-block: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
 .nav-item1{
-    border: 1px solid rgb(170, 162, 162);
+    border: 2px solid rgb(170, 162, 162);
     padding: 0px;
-    margin-inline: 20%;
+    margin-inline: 10%;
+    margin-block-start: 1rem;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .nav2{
@@ -72,14 +90,14 @@ body{
  .bg-right{
     padding: 0%;
     position: absolute;
-    height:35%;
+    height:10%;
     width:25%;
     background-image: url("images/bg-pattern-intro-right-mobile.svg");
-    background-position:center;
+
     background-repeat: no-repeat;
     background-size: 100%;
     right:0px ;
-    top: 10%;
+    top: 990px;
     right:0px ;
     align-items: right;    
     
@@ -101,8 +119,8 @@ body{
 .header h1{
     font-family: 'DM Serif Display', serif;
     padding-block: 4.5rem 0rem;
-    font-weight: 700;
-    font-size:2.9rem;
+    font-weight: 500;
+    font-size:3rem;
     letter-spacing: 0px;
     padding-inline: 5%;
 }
@@ -238,6 +256,13 @@ footer .socials li{
   
     
 }
+.all-socials{
+    color: gray;
+}
+.socials .face{
+    background-color: gray;
+    color: white;
+}
 
 footer .partners{
     text-align: center;
@@ -260,6 +285,7 @@ footer .partners h4:first-child{
 color: hsl(273, 4%, 51%) ; 
 padding-block: 1.5rem; 
 letter-spacing: 2px;
+font-size: 1rem;
 
 }
 footer .partners p{
@@ -272,6 +298,9 @@ footer .partners p{
         flex-direction: row;
         padding-inline:8.3%;
         position: relative;
+    }
+    .navbar-collapse{
+        display: none;
     }
     .header .family{
     width: 50%;
@@ -300,7 +329,8 @@ footer .partners p{
         }
         .header button{
         display: block;
-        width: 13%;
+        width: 20%;
+        
         
         }
         .header button:hover{
@@ -347,15 +377,19 @@ footer .partners p{
             margin-block: 5rem 0rem;
             text-align: center;
             width: 100%;
-            height: 275px;
+            height: 250px;
             align-items: center;
             text-align: center;
             justify-content: space-between;
             justify-items: center;
+            background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+            
         }
         .work h1{
             width: 45%;
-            padding: 5%;
+            padding:5%;
             
         
            
@@ -402,7 +436,25 @@ footer .partners p{
     padding-bottom: 0px;
     margin-top: 36px;
     
-}  
+} 
+.advertise span{
+    color: gray;
+    
+    
+} 
+.advertise span:hover{
+    color: white;
+
+}
+.all-socials:hover{
+    background-color: black;
+    border-radius: 4px;
+    padding: 3px;
+    
+}
+.socials .face:hover{
+background-color: black;
+}
 footer{
     padding-top: 0px;
     
@@ -443,28 +495,27 @@ text-decoration: underline;
     .bg-right{
         background-image: url(images/bg-pattern-intro-right-desktop.svg);
         top: 3.5%;
-        padding: 10%;
         margin-top: 0px;
-        background-size: cover;
-        width: 25%;
-        height: 25%;
+        width:350px;
+        height: 500px;
         
     }
     .work-bg{
-        background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+        display: none;
+        /*background-image: url(images/bg-pattern-how-we-work-desktop.svg);
         top:0px;
         height: 70%;
         background-size: contain;
-        padding: 235px;
+        padding: 235px;*/
     }
     .adver-bg{
-        padding: 130px;
+        padding-inline: 19%;
+        padding-block: 7% 5%;
         position: absolute;
-        height: 100%px;
-        width: 200px;
         background-image: url(images/bg-pattern-footer-desktop.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+
     }
      nav .navbar-toggler{
         display: none;
@@ -490,20 +541,37 @@ text-decoration: underline;
                 color:hsl(273, 4%, 51%);
             }
             .container-fluid {
-            margin: 0px;
+                margin: 0px;
                 margin-inline: 7%;}
-                .container-fluid .view{
-                    border: solid black;
-                    color: black;
+            .container-fluid .view{
+                border: solid black;
+                color: black;
                 }
-                .container-fluid .view:hover{
-                    background-color:hsl(270, 9%, 17%) ;
-                    color: white;
+            .container-fluid .view:hover{
+                background-color:hsl(270, 9%, 17%) ;
+                color: white;
                 }
                 .container-fluid ul{
-                    margin-top: 14px;
+                margin-top: 14px;
                 }
+
 }
+@media screen and (max-width:894px){
+.container-fluid{
+    margin-inline: 0px;
+}
+}
+@media screen and (max-width:771px){
+    .container-fluid li{
+        padding: 0px;
+    }
+    
+}
+@media only screen and (max-width: 722px) and (min-width: 458px) {
+.bg-right{
+    top: 28%;
+}
+} 
    
     
 /*- Dark Violet: hsl(256, 26%, 20%)
